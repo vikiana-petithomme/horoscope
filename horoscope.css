@@ -1,0 +1,98 @@
+body {
+    background: rgb(168, 99, 168);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+section.hide{
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+header img {
+    filter: hue-rotate(40deg);
+    width: 30%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+h1#title {
+    font-size: 4rem;
+    text-align: center;
+    width:100%;
+}
+h1 {
+    color: rgb(66, 9, 66);
+    text-align: center;
+    width: 100%;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+span {
+    color: rgb(66, 9, 66);
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+section.result {
+    text-align: center;
+    width:100%; 
+}
+
+
+input#submit {
+    border: 2px solid black;
+    font-size: 1.5rem;
+    margin-top: 2%;
+    background: rgb(221, 180, 221);
+}
+
+section.inputs {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  
+}
+
+input#month {
+    margin-right: 3%;
+}
+
+input#month, input#day {
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid rgb(66, 9, 66);
+    padding-left:1%;
+}
+
+input#month::placeholder, input#day::-moz-placeholder {
+    color: rgb(142, 42, 142);
+    margin-left: 5%;
+    text-align: center;
+}
+
+.zodiacs h3 {
+    font-size: 3rem;
+    font-weight:bold;
+    color: rgb(72, 12, 72);
+    margin-bottom:0px;
+}
+
+section.zodiacs {
+    padding-left: 5%;
+    padding-right:5%;
+}
+
+.zodiacs p {
+    color: rgb(49, 12, 49);
+    font-size:2.5rem;
+}
